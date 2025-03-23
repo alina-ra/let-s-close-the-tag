@@ -341,7 +341,7 @@
 }
 
 .filter_saturate {
-  filter: brightness(0.5);
+  filter: saturate(0.5);
 }
 
 .filter_grayscale {
@@ -353,7 +353,7 @@
 }
 
 .filter_invert {
-  filter: invert(0.3);
+  filter: invert(0.3) saturate(1px);
 }
 
 .filter_sepia {
@@ -365,5 +365,5 @@
 }
 
 .filter_brightness {
-  filter: brightness(0.5);
+  filter: brightness(0.5) blur(3px);
 }
