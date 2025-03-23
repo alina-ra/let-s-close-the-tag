@@ -335,3 +335,31 @@
 .sparks {
   opacity: 0;
 }
+
+.filter_saturate {
+  filter: brightness(0.5);
+}
+
+.filter_grayscale {
+  filter: grayscale(0.5);
+}
+
+.filter_contrast {
+  filter: contrast(0.5);
+}
+
+.filter_invert {
+  filter: invert(0.3);
+}
+
+.filter_sepia {
+  filter: sepia (1);
+}
+
+.filter.blur {
+  filter: blur(2);
+}
+
+.filter_brightness {
+  filter: brightness(0.5);
+}
