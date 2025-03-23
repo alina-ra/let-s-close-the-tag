@@ -38,9 +38,7 @@
                         Фритрек и нулевой спринт: Подготовка к работе
                     </h2>
                     <div class="card__image-block">
-                        <img class="card__image" 
-                        src="./images/camper.png" 
-                        alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
+                        <img class="card__image" src="./images/camper.png" alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
                         <span class="card__image-label">&lt;/HTML&gt;</span>
                     </div>
                     <div class="card__paragraph">
@@ -80,9 +78,7 @@
                         1 спринт: Я — чистый лист
                     </h2>
                     <div class="card__image-block">
-                        <img class="card__image filter_saturate"
-                        src="./images/800x450.png"
-                        alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
+                        <img class="card__image filter_saturate" src="./images/800x450.png" alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
                         <span class="card__image-label">&lt;/HTML&gt;</span>
                     </div>
                     <div class="card__paragraph">
@@ -169,9 +165,7 @@
                         2 спринт: Погоня за идеалом
                     </h2>
                     <div class="card__image-block">
-                        <img class="card__image filter_contrast" 
-                        src="./images/image.png" 
-                        alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
+                        <img class="card__image filter_contrast" src="./images/image.png" alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
                         <span class="card__image-label">&lt;decisions&gt;</span>
                     </div>
                     <div class="card__paragraph">
@@ -213,9 +207,7 @@
                         2 спринт: О тех, кто рядом
                     </h2>
                     <div class="card__image-block">
-                        <img class="card__image filter_invert"
-                        src="./images/image-3.png"
-                        alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
+                        <img class="card__image filter_invert" src="./images/image-3.png" alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
                         <span class="card__image-label">&lt;care&gt;</span>
                     </div>
                     <div class="card__paragraph">
@@ -257,9 +249,7 @@
                         3 спринт: Обходные стратегии
                     </h2>
                     <div class="card__image-block">
-                        <img class="card__image  filter_sepia"
-                        src="./images/image-5.png"
-                        alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
+                        <img class="card__image filter_sepia" src="./images/image-5.png" alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
                         <span class="card__image-label">&lt;support&gt;</span>
                     </div>
                     <div class="card__paragraph">
@@ -300,9 +290,7 @@
                         3 спринт: Когда опускаются руки
                     </h2>
                     <div class="card__image-block">
-                        <img class="card__image filter_blur"
-                        src="./images/image-7.png"
-                        alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
+                        <img class="card__image filter_blur" src="./images/image-7.png" alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
                         <span class="card__image-label">&lt;life-styles:none&gt;</span>
                     </div>
                     <div class="card__paragraph">
@@ -344,9 +332,7 @@
                         «Сейчас я здесь»
                     </h2>
                     <div class="card__image-block">
-                        <img class="card__image filter_brightness"
-                        src="./images/image-8.png" 
-                        alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
+                        <img class="card__image filter_brightness" src="./images/image-8.png" alt="Пиксельная машина для путешествий стоит на фоне ночного леса и костра, романтика и свободна, я бы сказала так" />
                         <span class="card__image-label">&lt;experience&gt;</span>
                     </div>
                     <div class="card__paragraph">
@@ -383,25 +369,22 @@
                     </div>
                 </li>
             </ul>
-
-            <button class="main-content__button button__with-text button__covered" type="button">
+            <!-- Trigger Button -->
+            <label class="main-content__button button__with-text button__covered" for="dialogToggle">
                 <svg viewBox="0 0 40 40" class="floppy__icon">
                     <use href="./svg/floppy.svg" />
                 </svg>
                 <span class="floppy__text button__text">Сохранить на память</span>
-            </button>
+            </label>
+            <input type="checkbox" id="dialogToggle" class="dialog-toggle" hidden />
             <dialog class="floppy__dialog" id="dialog">
-              <svg viewBox="0 0 40 40" class="floppy__icon-dialog">
-                <use href="./svg/floppy.svg#floppy" />
-              </svg>
-              <p class="floppy__dialog-text">Вставьте дискету, чтобы продолжить</p>
-              <button
-                class="floppy__dialog-button button__with-text button__text"
-                type="button"
-                onclick="document.getElementById('dialog').close()"
-              >
-                ОК
-              </button>
+                <svg viewBox="0 0 40 40" class="floppy__icon-dialog">
+                    <use href="./svg/floppy.svg#floppy" />
+                </svg>
+                <p class="floppy__dialog-text">Вставьте дискету, чтобы продолжить</p>
+                <button class="floppy__dialog-button button__with-text button__text" type="button" onclick="document.getElementById('dialog').close()">
+                    ОК
+                </button>
             </dialog>
         </main>
         <script src="./scripts/set-theme.js"></script>
