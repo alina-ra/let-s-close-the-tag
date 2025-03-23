@@ -281,7 +281,11 @@
   color: var(--background-color);
 }
 
-.floppy__dialog[open] {
+.floppy__dialog {
+  display: none;
+}
+
+.dialog-toggle:checked + .floppy__dialog {
   display: grid;
   grid-template-columns: 39px 1fr;
   column-gap: 20px;
@@ -361,5 +365,5 @@
 }
 
 .filter_brightness {
-  filter: saturate(1.5) brightness(0.5);
+  filter: brightness(0.5);
 }
